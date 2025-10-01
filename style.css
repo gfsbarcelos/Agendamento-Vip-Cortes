@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+  gap: 28px;
+  text-decoration: none;
+  font-family: "Big Shoulders", sans-serif;
+  align-items: center;
+  min-width: 320px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.item,
+.entrar {
+  color: white;
+  font-size: 35px;
+  gap: 28px;
+  text-decoration: none;
+  font-family: "Big Shoulders", sans-serif;
+  align-items: center;
+}
+
+.agendar {
+  color: #727272;
+  font-size: 35px;
+  gap: 28px;
+  text-decoration: none;
+  font-family: "Big Shoulders", sans-serif;
+  align-items: center;
+}
+
+.entrar2 {
+  color: #f0b65f;
+  font-size: 35px;
+  gap: 28px;
+  text-decoration: none;
+  font-family: "Big Shoulders", sans-serif;
+  align-items: center;
+}
+
+.logo {
+  height: 90px;
+  width: 120px;
+  align-items: center;
+}
+
+.container_left {
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+  gap: 28px;
+  text-decoration: none;
+  font-family: "Big Shoulders", sans-serif;
+  align-items: center;
+  padding: 0px 2%;
+}
+
+.container_right {
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+  gap: 28px;
+  text-decoration: none;
+  font-family: "Big Shoulders", sans-serif;
+  align-items: center;
+  padding: 0px 2%;
+}
+
+.item:hover,
+.agendar:hover,
+.entrar:hover,
+.entrar2:hover {
+  transform: scale(1.2);
+}
+
+.menu-icon {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  display: none;
+  cursor: pointer;
+  padding: 0px 2%;
+}
+
+.menu-icon img {
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 1079px) {
+  .item,
+  .entrar,
+  .agendar,
+  .entrar2 {
+    display: none;
+  }
+  .menu-icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.main1 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./HTML/assets/fundo agendamentos.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 0;
+  
+}
+
+.main1 {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: aliceblue;
+}
+
+.form {
+  align-items: center;
+  width: 400px;
+  margin-top: 30%;
+}
+
+.form h1 {
+  font-family: "Big Shoulders";
+  font-size: 500%;
+  padding-bottom: 6%;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.texto,
+.idade,
+.fone,
+.date,
+.horario,
+select {
+  background-color: #41404080;
+  color: aliceblue;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  border-color: aliceblue;
+  color: aliceblue;
+}
+
+.enviar {
+  width: 400px;
+  height: 60px;
+  background-color: #e0a143;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 35px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: "Big Shoulders", sans-serif;
+  margin-bottom: 35%;
+  border: none;
+}
+
+.form select {
+  width: 100%;
+  height: 35px;
+  border-color: aliceblue;
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+
+.enviar:hover {
+  background-color: #d48a1b;
+}
+
+.main1 img {
+  justify-content: center;
+  align-items: center;
+}
+
+/*agradecimento por agendar*/
+
+.main2 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./HTML/assets/fundo preto2.jpeg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+.main2 img {
+  justify-content: center;
+  align-items: center;
+}
+
+.main2 h1 {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  background-color: rgba(240, 248, 255, 0);
+  justify-content: center;
+  z-index: 1;
+  padding-top: 200px;
+  font-family: "Big Shoulders", sans-serif;
+}
+
+.destaque {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 0px;
+  align-items: center;
+  height: auto;
+  color: #f0b65f;
+  font-size: 25px;
+  background-color: rgba(240, 248, 255, 0);
+  justify-content: center;
+  z-index: 2;
+  font-family: "Big Shoulders", sans-serif;
+}
+
+.p1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: auto;
+  color: #ffffff;
+  font-size: 25px;
+  background-color: rgba(240, 248, 255, 0);
+  justify-content: center;
+  z-index: 2;
+  font-family: "Big Shoulders", sans-serif;
+  gap: 5px;
+}
+
+.atencao-agendamento {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 5%;
+  padding: 0% 2%;
+  font-size: 18px;
+}
+
+.botoes-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 7%;
+}
+
+.voltar-pra-home {
+  text-decoration: none;
+  background-color: aliceblue;
+  font-family: "Big Shoulders", sans-serif;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  width: 180px;
+  height: 40px;
+}
+
+.cancelar {
+  text-decoration: none;
+  background-color: rgb(121, 120, 120);
+  font-family: "Big Shoulders", sans-serif;
+  border-radius: 25px;
+  color: aliceblue;
+  border: none;
+  font-size: 20px;
+  width: 180px;
+  height: 40px;
+}
+.voltar-pra-home:hover,
+.cancelar:hover {
+  background-color: #e0a143;
+}
+
+@media (max-width: 500px) {
+    .main1 h1 {
+        font-size: 60px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .main1 img {
+        width: 100%;
+        
+    }
+
+
+
+    .main2 h1 {
+        padding-top: 30%;
+    }
+  .p1, .destaque {
+   margin-top: 5%;
+   text-align: center;
+  }
+  .p1 {
+    flex-wrap: wrap;
+    padding: 0% 5%;
+  }
+  .botoes-2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  .cancelar {
+    margin-top: 15%;
+  }
+  .atencao-agendamento {
+    margin-top: 30%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .main2 h1 {
+        padding-top: 5%;
+
+    }
+  .p1, .destaque {
+   margin-top: 5%;
+   text-align: center;
+  }
+  .p1 {
+    flex-wrap: wrap;
+    padding: 0% 5%;
+  }
+  .botoes-2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  }
+  .atencao-agendamento {
+    margin-top: 30%;
+  }
