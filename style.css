@@ -319,7 +319,7 @@ input::placeholder {
   background-color: #e0a143;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .main1 h1 {
         font-size: 60px;
         justify-content: center;
@@ -364,11 +364,11 @@ input::placeholder {
     margin-top: 15%;
   }
   .atencao-agendamento {
-    margin-top: 30%;
+    margin-bottom: 15%;
   }
 }
 
-@media (min-width: 1001px) and (max-width: 1600px) {
+@media (min-width: 701px) and (max-width: 1000px) {
     .main2 h1 {
         padding-top: 10%;
 
@@ -394,6 +394,7 @@ input::placeholder {
     margin-top: 30%;
 
   }
+
 
 
 
