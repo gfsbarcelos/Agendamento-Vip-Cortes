@@ -333,7 +333,7 @@ input::placeholder {
 
     .enviar {
       width: 100%;
-      margin-bottom: 180px;
+      margin-top: 180px;
     }
 
   .form {
@@ -403,6 +403,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
 
 
 
