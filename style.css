@@ -335,7 +335,7 @@ input::placeholder {
     .enviar {
       width: 100%;
       pading-top: 30px;
-      padding-bottom: 40%;
+      padding-bottom: 30%;
     }
 
   .form {
@@ -405,6 +405,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
 
 
 
