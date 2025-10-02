@@ -188,7 +188,7 @@ select {
   font-size: 35px;
   text-align: center;
   font-family: "Big Shoulders", sans-serif;
-  margin-bottom: 35%;
+  margin-bottom: 25%;
   border: none;
 }
 
@@ -333,7 +333,7 @@ input::placeholder {
 
     .enviar {
       width: 100%;
-      padding-top: 100px;
+      padding-top: 180px;
     }
 
   .form {
@@ -403,6 +403,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
 
 
 
