@@ -370,7 +370,7 @@ input::placeholder {
 
 @media (min-width: 1001px) and (max-width: 1600px) {
     .main2 h1 {
-        padding-top: 5%;
+        padding-top: 10%;
 
     }
   .p1, .destaque {
@@ -394,6 +394,7 @@ input::placeholder {
     margin-top: 30%;
 
   }
+
 
 
 
