@@ -325,7 +325,6 @@ input::placeholder {
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin-top: 200px;
         margin-bottom: 10px;
     }
     .main1 img {
@@ -334,6 +333,7 @@ input::placeholder {
 
     .enviar {
       width: 100%;
+      padding-top: 100px;
     }
 
   .form {
@@ -403,6 +403,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
 
 
 
