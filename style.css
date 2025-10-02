@@ -319,7 +319,7 @@ input::placeholder {
   background-color: #e0a143;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .main1 h1 {
         font-size: 60px;
         justify-content: center;
@@ -334,8 +334,8 @@ input::placeholder {
 
     .enviar {
       width: 100%;
-      pading-top: 30px;
-      padding-bottom: 30%;
+      margin-top: 30px;
+      margin-bottom: 30%;
     }
 
   .form {
@@ -370,7 +370,7 @@ input::placeholder {
   }
 }
 
-@media (min-width: 601px) and (max-width: 1000px) {
+@media (min-width: 801px) and (max-width: 1000px) {
     .main2 h1 {
       padding-top: 10%;
     }
@@ -405,6 +405,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
 
 
 
