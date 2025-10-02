@@ -368,7 +368,7 @@ input::placeholder {
   }
 }
 
-@media (min-width: 1001px) and (max-width: 2000px) {
+@media (min-width: 1001px) and (max-width: 1600px) {
     .main2 h1 {
         padding-top: 5%;
 
@@ -394,6 +394,7 @@ input::placeholder {
     margin-top: 30%;
 
   }
+
 
 
 
