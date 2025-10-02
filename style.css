@@ -331,8 +331,14 @@ input::placeholder {
         
     }
 
+    .enviar {
+      width: 100%;
+    }
 
-
+  .form {
+    width: 310px;
+  }
+  
     .main2 h1 {
         padding-top: 30%;
     }
@@ -386,6 +392,7 @@ input::placeholder {
     margin-top: 30%;
 
   }
+
 
 
 
