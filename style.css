@@ -325,7 +325,8 @@ input::placeholder {
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin-top: 100px;
+        margin-top: 200px;
+        margin-bottom: 10px;
     }
     .main1 img {
         width: 100%;
@@ -403,3 +404,4 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
