@@ -186,7 +186,6 @@ select {
   border-radius: 25px;
   cursor: pointer;
   font-size: 35px;
-  margin-top: 200px;
   text-align: center;
   font-family: "Big Shoulders", sans-serif;
   margin-bottom: 35%;
@@ -240,6 +239,7 @@ input::placeholder {
   z-index: 1;
   padding-top: 200px;
   font-family: "Big Shoulders", sans-serif;
+  padding-bottom: 10%;
 }
 
 .destaque {
@@ -334,8 +334,6 @@ input::placeholder {
 
     .enviar {
       width: 100%;
-      margin-top: 30px;
-      margin-bottom: 30%;
     }
 
   .form {
@@ -405,6 +403,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
 
 
 
