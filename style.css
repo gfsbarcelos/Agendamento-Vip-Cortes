@@ -333,15 +333,15 @@ input::placeholder {
 
     .enviar {
       width: 100%;
-      margin-top: 180px;
+      margin-top: 16%;
     }
 
   .form {
-    width: 310px;
+    width: 80%;
   }
   
     .main2 h1 {
-     padding-bottom: 30%;
+     padding-bottom: 20%;
     }
   
   .p1, .destaque {
@@ -403,6 +403,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
   }
+
 
 
 
