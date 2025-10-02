@@ -319,7 +319,7 @@ input::placeholder {
   background-color: #e0a143;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1800px) {
     .main1 h1 {
         font-size: 60px;
         justify-content: center;
@@ -368,7 +368,7 @@ input::placeholder {
   }
 }
 
-@media (min-width: 501px) and (max-width: 800px) {
+@media (min-width: 1801px) and (max-width: 2800px) {
     .main2 h1 {
         padding-top: 5%;
 
@@ -394,6 +394,7 @@ input::placeholder {
     margin-top: 30%;
 
   }
+
 
 
 
