@@ -193,7 +193,7 @@ select {
   margin-top: 150px;
   text-align: center;
   font-family: "Big Shoulders", sans-serif;
-  margin-bottom: 35%;
+  margin-bottom: 15%;
   border: none;
 }
 
@@ -418,6 +418,7 @@ input::placeholder {
   }
   }
  
+
 
 
 
