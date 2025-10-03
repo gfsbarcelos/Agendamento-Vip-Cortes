@@ -149,7 +149,7 @@
 .form h1 {
   font-family: "Big Shoulders";
   font-size: 500%;
-  padding-top: 300px;
+  padding-top: 100px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
 }
@@ -369,7 +369,7 @@ input::placeholder {
     margin-bottom: 15%;
   }
   .form {
-    width: 600px;
+    width: 350px;
     margin-top: 0px;
   }
 }
@@ -418,6 +418,7 @@ input::placeholder {
   }
   }
  
+
 
 
 
