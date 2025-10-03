@@ -116,7 +116,7 @@
 .main1 {
   width: 100%;
   min-height: 100vh;
-  background-image: url("assets/fundo agendamentos.png");
+  background-image: url("./HTML/assets/fundo agendamentos.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -221,7 +221,7 @@ input::placeholder {
 .main2 {
   width: 100%;
   min-height: 100vh;
-  background-image: url("assets/fundo preto2.jpeg");
+  background-image: url("./HTML/assets/fundo preto2.jpeg");
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -418,6 +418,7 @@ input::placeholder {
   }
   }
  
+
 
 
 
