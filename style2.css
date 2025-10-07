@@ -136,20 +136,21 @@
   color: aliceblue;
 }
 
-.main1 h1 {
+.form h1 {
+  text-align: center;
   padding-bottom: 10%;
 }
 
 .form {
   align-items: center;
-  width: 400px;
-  margin-top: 6%;
+  width: 600px;
+  margin-top: 10%;
 }
 
 .form h1 {
   font-family: "Big Shoulders";
   font-size: 500%;
-  padding-top: 50px;
+  margin-top: 50px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
 }
@@ -193,7 +194,7 @@ select {
   margin-top: 150px;
   text-align: center;
   font-family: "Big Shoulders", sans-serif;
-  margin-bottom: 15%;
+  margin-bottom: 35%;
   border: none;
 }
 
@@ -324,7 +325,24 @@ input::placeholder {
   background-color: #e0a143;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 399px) {
+  .form {
+    width: 300px;
+    margin-top: 70%;
+  }
+  .enviar {
+    margin-top: 50px;
+  }
+
+  .form h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 770px) {
+
 
     .main1 h1 {
         font-size: 55px;
@@ -354,33 +372,26 @@ input::placeholder {
     flex-wrap: wrap;
     padding: 0% 5%;
   }
-  .botoes-2 {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 15%;
-    margin-bottom: 15%;
-  }
   .cancelar {
     margin-top: 15%;
   }
   .atencao-agendamento {
-    margin-bottom: 15%;
+    align-items: center;
+    
   }
   .form {
     width: 350px;
-    margin-top: 0px;
+    margin-top: 35%;
   }
 }
 
 @media (min-width: 771px) and (max-width: 1300px) {
 
-    .main2 h1 {
+    .form h1 {
         padding-top: 15%;
     }
 
-    .main1 h1 {
+    .form h1 {
       padding-bottom: 10%;
     }
 
@@ -418,12 +429,3 @@ input::placeholder {
   }
   }
  
-
-
-
-
-
-
-
-
-
